@@ -191,6 +191,8 @@ let info = {
         "NGINX",
         "Elasitcsearch",
         "Kibana",
+        "JIRA",
+        "SonarCloud",
       ],
       category: "Website",
       date: "Feb, 2024 - Jun, 2024",
@@ -200,19 +202,66 @@ let info = {
         "Trailblazer is a groundbreaking initiative aimed at revitalizing the tourism industry through the integration of Machine Learning (ML) and Natural Language Processing (NLP) technologies. By developing an advanced Destination Management System (DMS), Trailblazer seeks to empower Destination Management Organizations (DMOs) with predictive analytics to foresee trends and make informed decisions in infrastructure, marketing, and sustainability practices. The system analyzes tourists' feedback across various platforms to derive insights into preferences and sentiments, enhancing service quality and personalizing travel experiences. At its core, Trailblazer features a personalized recommendation engine that curates activities tailored to individual interests, fostering a seamless exploration of new experiences while enabling providers to effectively showcase their offerings. This multifaceted approach benefits tourists with customized travel suggestions, provides attraction providers with valuable market insights, and equips DMOs with sophisticated analytical tools for sustainable tourism development.",
     },
     {
-      name: "NoQ Job Portal",
+      name: "GateMate",
       pictures: [
         {
-          img: require("./src/assets/portfolio/trailblazer/LogoBlack.png"),
+          img: require("./src/assets/portfolio/gatemate/logo.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/HomePage.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/Login.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/AllFlights.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/FlightData.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/BuyFlight.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/MyTickets.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/CheckinOnline.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/Map.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/FlightLiveData.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/FlightsAdmin.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/FlightInfoAdmin.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/CheckinManual.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gatemate/Display.png"),
         },
       ],
-      technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
+      technologies: [
+        "React",
+        "NGINX",
+        "Docker",
+        "Spring Boot",
+        "MySQL",
+        "RabbitMQ",
+        "SonarCloud",
+        "JIRA",
+      ],
       category: "Website",
-      date: "Sep, 2019 - Dec  , 2019",
-      github: "https://github.com/hrishikeshpaul/noq",
-      visit: "https://noq-client.herokuapp.com/",
+      date: "Apr, 2024 - Jun, 2024",
+      github: "https://github.com/GateMate-TQS/GateMate",
       description:
-        "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system.",
+        "GateMate is a flight booking and management platform designed to simplify and enhance the travel experience for users utilizing air travel services. It will be used by travelers to perform various flight-related operations, such as ticket booking, online check-in, and accessing real-time flight information. The high-level problem our system aims to solve is the complexity and lack of convenience often associated with air travel. Currently, travelers frequently need to deal with multiple websites and apps from different airlines to make their reservations, check in, and obtain information about their flights. This can be confusing and time-consuming, resulting in a frustrating travel experience. GateMate was conceived to address this problem by offering a comprehensive and centralized solution for all users' flight booking and management needs. With an intuitive and user-friendly interface, travelers can complete all necessary steps before their trip, from booking tickets to checking in and accessing updated information about their flights, all in one place. Initially, we planned to include extensive integration with various airlines, providing users with a wide range of flight options. However, due to the complexity and challenges associated with this approach, we decided to focus on a few major airlines for the initial launch of the system, with plans to expand and include more airlines in the future. This system differentiates itself from similar products through its integrated, user-centric approach. By consolidating all flight-related functionalities into a single platform, GateMate offers users a more convenient and efficient experience, making air travel more accessible and enjoyable.",
     },
     {
       name: "POST",
@@ -231,7 +280,6 @@ let info = {
       category: "Algorithm",
       github: "https://github.com/hrishikeshpaul/pos-tagger",
       date: "Oct, 2019 - Nov, 2019",
-      visit: "https://post-client.herokuapp.com/",
       description:
         "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling.",
     },
