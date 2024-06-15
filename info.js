@@ -1,7 +1,7 @@
 let info = {
   name: "André Oliveira",
   logo_name: "André",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  flat_picture: require("./src/assets/potrait.png"),
   config: {
     use_cookies: true,
     navbar: {
@@ -264,24 +264,18 @@ let info = {
         "GateMate is a flight booking and management platform designed to simplify and enhance the travel experience for users utilizing air travel services. It will be used by travelers to perform various flight-related operations, such as ticket booking, online check-in, and accessing real-time flight information. The high-level problem our system aims to solve is the complexity and lack of convenience often associated with air travel. Currently, travelers frequently need to deal with multiple websites and apps from different airlines to make their reservations, check in, and obtain information about their flights. This can be confusing and time-consuming, resulting in a frustrating travel experience. GateMate was conceived to address this problem by offering a comprehensive and centralized solution for all users' flight booking and management needs. With an intuitive and user-friendly interface, travelers can complete all necessary steps before their trip, from booking tickets to checking in and accessing updated information about their flights, all in one place. Initially, we planned to include extensive integration with various airlines, providing users with a wide range of flight options. However, due to the complexity and challenges associated with this approach, we decided to focus on a few major airlines for the initial launch of the system, with plans to expand and include more airlines in the future. This system differentiates itself from similar products through its integrated, user-centric approach. By consolidating all flight-related functionalities into a single platform, GateMate offers users a more convenient and efficient experience, making air travel more accessible and enjoyable.",
     },
     {
-      name: "POST",
+      name: "DigDug (Autonomous Agent)",
       pictures: [
         {
-          img: require("./src/assets/portfolio/trailblazer/RecommendationAssessment.png"),
+          img: require("./src/assets/portfolio/digdug/logo.jpg"),
         },
       ],
-      technologies: [
-        "Markov Models",
-        "Python",
-        "Artificial Intelligence",
-        "Vue",
-        "Heroku",
-      ],
-      category: "Algorithm",
-      github: "https://github.com/hrishikeshpaul/pos-tagger",
-      date: "Oct, 2019 - Nov, 2019",
+      technologies: ["Python", "Search Algorithms", "Artificial Intelligence"],
+      category: "Artificial Intelligence",
+      github: "https://github.com/andreaoliveira9/Projeto-IA",
+      date: "Sep, 2023 - Jan, 2024",
       description:
-        "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling.",
+        "Developed an Autonomous Agent for the game Dig Dug in Python using search algorithms to navigate with the agent around the map.",
     },
   ],
 };
