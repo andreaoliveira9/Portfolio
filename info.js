@@ -291,6 +291,42 @@ let info = {
       description:
         " Developed a game using Godot Engine for the Global Game Jam 2024. The game is a Tychon game where the player has to navigate through the map and collect money.",
     },
+    {
+      name: "Distributed Music Editor",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/distributedmusiceditor/logo.png"),
+        },
+      ],
+      technologies: ["Python", "Redis", "Celery", "Socket"],
+      category: "Distributed Systems",
+      github: "https://github.com/andreaoliveira9/Projeto-CD",
+      date: "May, 2023 - Jun, 2023",
+      description:
+        "Developed a distributed music editor using Python. The system allows multiple workers to edit the same music file simultaneously. The system uses Redis as a database and Celery for task management. The system is composed of a server and multiple workers.",
+    },
+    {
+      name: "DETI Store",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/costarun/logo.jpg"),
+        },
+      ],
+      technologies: [
+        "Flask",
+        "SQLAlchemy",
+        "SQLite",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "NGINX",
+      ],
+      category: "Website",
+      github: "https://github.com/andreaoliveira9/Projeto-SIO-2",
+      date: "Oct, 2023 - Dec, 2023",
+      description:
+        "Developed a simple DETI store using Flask. Implemented with high security standards like OAuth2, database encryption, recaptcha, and more.",
+    },
   ],
 };
 
