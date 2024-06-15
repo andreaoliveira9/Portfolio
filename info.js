@@ -104,41 +104,40 @@ let info = {
   skills: [
     {
       title: "languages",
-      info: [
-        "Python",
-        "Javascript",
-        "TypeScript",
-        "Java",
-        "C",
-        "C++",
-        "SQL",
-        "NoSQL",
-        "Ruby",
-      ],
+      info: ["Python", "Javascript", "Java", "C", "C++", "C#", "SQL", "NoSQL"],
       icon: "fa fa-code",
     },
     {
       title: "data frameworks",
-      info: [
-        "Keras",
-        "Numpy",
-        "Pandas",
-        "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
-        "Pillow",
-      ],
+      info: ["Keras", "Numpy", "Pandas", "OpenCV", "Tensorflow"],
       icon: "fa fa-cubes",
     },
     {
       title: "web technologies",
-      info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
+      info: [
+        "React",
+        "Node",
+        "Flask",
+        "HTML",
+        "CSS",
+        "Fast API",
+        "Spring Boot",
+        "Bootstrap",
+        "DaisyUI",
+      ],
       icon: "fas fa-laptop-code",
     },
     {
       title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL", "Neo4j"],
+      info: [
+        "MongoDB",
+        "MySQL",
+        "Neo4j",
+        "SQLite",
+        "PostgreSQL",
+        "Redis",
+        "Cassandra",
+      ],
       icon: "fa fa-database",
     },
     {
@@ -147,19 +146,18 @@ let info = {
         "MacOS",
         "Ubuntu",
         "Windows",
-        "Android",
         "Agile",
         "Scrum",
         "JIRA",
-        "Heroku",
         "Firebase",
-        "AWS S3",
+        "SonarQube",
+        "RabbitMQ",
       ],
       icon: "fas fa-tools",
     },
     {
       title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
+      info: ["Figma"],
       icon: "fa fa-pencil-square-o",
     },
   ],
@@ -425,40 +423,6 @@ let info = {
       visit: "",
       description:
         "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease.",
-    },
-  ],
-  recommendations: [
-    {
-      title:
-        "In his internship, Hrishikesh has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
-      author: "Ushanas Shastri",
-      position: "CTO",
-      company: "Viteos Capital Market Services",
-      location: "Mumbai",
-    },
-    {
-      title:
-        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
-      author: "Anil Dukkipatty",
-      position: "CTO",
-      company: "Elemential Labs",
-      location: "Mumbai",
-    },
-    {
-      title:
-        "He has gained great knowledge and experience of SDE, and has learned ot develop the application keeping in mind the client's perpective and also making it creative.",
-      author: "Chintan Shah",
-      position: "Director",
-      company: "Hridayam Soft Solution",
-      location: "Mumbai",
-    },
-    {
-      title:
-        "During the course of his employment we have found him to be a self-started who was motivated, duty bound and a highly commited team player.",
-      author: "Mrinal Pai",
-      position: "Co-Founder & Director",
-      company: "Skylark Drones",
-      location: "Bangalore",
     },
   ],
 };
