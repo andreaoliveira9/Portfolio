@@ -13,7 +13,7 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/andré-oliveira-72661627b/",
     github: "https://github.com/andreaoliveira9",
-    resume:
+    cv:
       "https://github.com/andreaoliveira9/Portfolio/blob/main/src/assets/pdfs/CV-André_Oliveira.pdf",
   },
   education: [

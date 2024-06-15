@@ -39,8 +39,8 @@
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-              v-tooltip.bottom="'Resume'"
+              @click="open('cv')"
+              v-tooltip.bottom="'CV'"
             >
               <i class="fa fa-file"></i>
             </button>
@@ -73,7 +73,7 @@ export default {
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
-      resume: info.links.resume,
+      cv: info.links.cv,
     };
   },
   methods: {
@@ -85,8 +85,8 @@ export default {
         case "github":
           window.open(this.github, "_blank");
           break;
-        case "resume":
-          window.open(this.resume, "_blank");
+        case "cv":
+          window.open(this.cv, "_blank");
           break;
       }
     },
