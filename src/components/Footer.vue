@@ -22,10 +22,7 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-            >
+            <button class="btn btn-outline-secondary mx-2" @click="open('cv')">
               <i class="fa fa-file"></i>
             </button>
           </div>
@@ -44,7 +41,7 @@ export default {
     return {
       linkedin: info.links.linkedin,
       github: info.links.github,
-      resume: info.links.resume,
+      cv: info.links.cv,
     };
   },
   methods: {
@@ -56,8 +53,8 @@ export default {
         case "github":
           window.open(this.github, "_blank");
           break;
-        case "resume":
-          window.open(this.resume, "_blank");
+        case "cv":
+          window.open(this.cv, "_blank");
           break;
       }
     },
