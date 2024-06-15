@@ -309,7 +309,40 @@ let info = {
       name: "DETI Store",
       pictures: [
         {
-          img: require("./src/assets/portfolio/costarun/logo.jpg"),
+          img: require("./src/assets/portfolio/detistore/xss_search-1.jpeg"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/recaptcha.jpeg"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/code_expriration.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/email_code.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/enter_code.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/email_profile_change.jpg"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/xss_search_fixed-1.jpeg"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/xss_comments-1.jpeg"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/xss_comments-2221.jpeg"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/sql_injection_wishlist-1.jpeg"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/InjectionCartSafe.jpeg"),
+        },
+        {
+          img: require("./src/assets/portfolio/detistore/certificate.jpeg"),
         },
       ],
       technologies: [
