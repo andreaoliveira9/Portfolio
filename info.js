@@ -277,6 +277,20 @@ let info = {
       description:
         "Developed an Autonomous Agent for the game Dig Dug in Python using search algorithms to navigate with the agent around the map.",
     },
+    {
+      name: "Costa Run",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/costarun/logo.jpg"),
+        },
+      ],
+      technologies: ["Godot Engine", "C#"],
+      category: "Game Development",
+      github: "https://github.com/andreaoliveira9/GGJ-24",
+      date: "Jan, 2024 - Jan, 2024",
+      description:
+        " Developed a game using Godot Engine for the Global Game Jam 2024. The game is a Tychon game where the player has to navigate through the map and collect money.",
+    },
   ],
 };
 
