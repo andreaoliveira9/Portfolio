@@ -78,17 +78,19 @@ export default {
   },
   methods: {
     open(link) {
+      let url = "";
       switch (link) {
         case "linkedin":
-          window.open(this.linkedin, "_blank");
+          url = this.linkedin;
           break;
         case "github":
-          window.open(this.github, "_blank");
+          url = this.github;
           break;
         case "cv":
-          window.open(this.cv, "_blank");
+          url = "/pdfs/CV-André_Oliveira.pdf"; // Caminho relativo na pasta public
           break;
       }
+      window.open(url, "_blank");
     },
   },
 };
