@@ -180,7 +180,7 @@ let info = {
         },
       ],
       technologies: [
-        "TypeCript",
+        "TypeScript",
         "PostgreSQL",
         "MongoDB",
         "React",
